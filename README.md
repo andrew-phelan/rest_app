@@ -20,6 +20,8 @@ web_1      |    WARNING: This is a development server. Do not use it in a produc
 
 web_1      |  * Running on http://172.18.0.3:5000/ (Press CTRL+C to quit)
 
+# Verify and Update localhost for CURL
+
 Check the localhost address and update CURL commands below if required.
 
 # View test data

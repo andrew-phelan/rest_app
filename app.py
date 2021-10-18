@@ -1,5 +1,3 @@
-import re
-
 from flask import Flask, request, jsonify, abort
 
 from lib.activities import Sport, Event, Selection

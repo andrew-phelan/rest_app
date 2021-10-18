@@ -2,7 +2,7 @@
  Basic python/flask/mysql/docker CRUD app
 # Git clone
 
-git clone 
+git clone https://github.com/andrew-phelan/rest_app.git
 
 # Change directory
 

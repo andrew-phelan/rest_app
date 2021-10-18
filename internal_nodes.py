@@ -10,7 +10,7 @@ def find_internal_nodes_num(tree):
         if leaf not in tree_details.get('parent_nodes'):
             tree_details['parent_nodes'][leaf] = 0
         tree_details['parent_nodes'][leaf] += 1
-    return sum(tree_details['parent_nodes'].values())
+    return len(tree_details['parent_nodes'].keys())
 
 
 my_tree = [4, 4, 1, 5, -1, 4, 5]
